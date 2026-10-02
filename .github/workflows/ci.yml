@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        v: [1, 2, 3]
+        v: [1, 2, 3, 4]
     steps:
       - run: echo "${{ matrix.v }}"
